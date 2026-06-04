@@ -1,0 +1,6 @@
+{
+  "buildCommand": "npx vinxi build",
+  "installCommand": "npm install",
+  "outputDirectory": ".output/public",
+  "framework": null
+}

@@ -4,9 +4,9 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-  "dev": "npx vinxi dev",
-  "build": "npx vinxi build",
-  "start": "npx vinxi start"
+  "dev": "vinxi dev",
+  "build": "vinxi build",
+  "start": "vinxi start"
 },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
