@@ -4,19 +4,20 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vinxi dev",
-  "build": "vinxi build",
-  "start": "vinxi start"
-},
-  "dependencies": {
-    "@tanstack/react-query": "^5.100.14",
-    "firebase": "^12.14.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "dev": "vinxi dev",
+    "build": "pnpm exec vinxi build",
+    "start": "vinxi start"
   },
   "devDependencies": {
-    "vite": "^5.0.0",
+  "@vitejs/plugin-react": "^4.0.0",
+  "typescript": "^5.0.0",
+  "vinxi": "^0.5.11",
+  "vite": "^5.0.0"
+}
+  "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vinxi": "^0.5.11",
+    "vite": "^5.0.0"
   }
 }
