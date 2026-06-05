@@ -8,12 +8,14 @@
     "build": "pnpm exec vinxi build",
     "start": "vinxi start"
   },
-  "devDependencies": {
-  "@vitejs/plugin-react": "^4.0.0",
-  "typescript": "^5.0.0",
-  "vinxi": "^0.5.11",
-  "vite": "^5.0.0"
-}
+  "dependencies": {
+    "@tanstack/react-query": "^5.100.14",
+    "@tanstack/react-router": "^1.170.11",
+    "@tanstack/react-start": "^1.168.20",
+    "firebase": "^12.14.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0"
+  },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "typescript": "^5.0.0",
